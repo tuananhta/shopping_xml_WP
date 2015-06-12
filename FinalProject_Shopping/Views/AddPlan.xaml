@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="FinalProject_Shopping.Views.AddPlan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProject_Shopping.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock FontSize="24" HorizontalAlignment="Center">
+            Add new item for the plan
+            </TextBlock>
+            <TextBlock FontSize="20" HorizontalAlignment="Center" FontStyle="Italic" Name="DayInfo">Date: </TextBlock>
+            <TextBlock FontSize="20">Product Name</TextBlock>
+            <TextBox Name="ProductName"></TextBox>
+            <Button Width="400" Click="Button_Click">Add Plan</Button>           
+        </StackPanel>
+    </Grid>
+</Page>
